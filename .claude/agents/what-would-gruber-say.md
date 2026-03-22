@@ -1,5 +1,5 @@
 ---
-name: mac-ux-review
+name: what-would-gruber-say
 description: >
   macOS native UX review — HIG compliance, native feel, accessibility, App Store
   readiness, and the kind of details that Gruber, Siracusa, and the indie Mac dev

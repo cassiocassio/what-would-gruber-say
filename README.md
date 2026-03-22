@@ -34,14 +34,15 @@ Copy the agent into your project:
 
 ```bash
 mkdir -p .claude/agents
-curl -o .claude/agents/mac-ux-review.md \
-  https://raw.githubusercontent.com/cassiocassio/what-would-gruber-say/main/.claude/agents/mac-ux-review.md
+curl -o .claude/agents/what-would-gruber-say.md \
+  https://raw.githubusercontent.com/cassiocassio/what-would-gruber-say/main/.claude/agents/what-would-gruber-say.md
 ```
 
-Then ask it to review your code:
+Then in Claude Code:
 
 ```
-@mac-ux-review ContentView.swift
+@what-would-gruber-say ContentView.swift
+@what-would-gruber-say desktop/Views/
 ```
 
 ## What it doesn't do
