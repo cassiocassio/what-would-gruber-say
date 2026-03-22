@@ -75,21 +75,30 @@ These are apps Gruber has specifically cited on Daring Fireball:
 - **[Proxyman](https://proxyman.io/)** — a Mac-native alternative to Charles/Wireshark
 - **[Nisus Writer](https://nisus.com/)** — Mac-only word processor since 1989
 
-### Other apps referenced for specific patterns
+### Also mentioned on Daring Fireball
 
-Good Mac apps we reference for specific conventions, though not necessarily cited by Gruber:
+Gruber has covered these, though not with the "Mac-assed" stamp:
 
-- **[Things 3](https://culturedcode.com/things/)** — spring animations, spacing
-- **[Bear](https://bear.app/)** — sidebar conventions, section headers
-- **[Tower](https://www.git-tower.com/)** — badge restraint (grey pill for status, red only for "needs attention")
-- **[Reeder](https://reederapp.com/)** — restraint (no unread counts)
-- **[Transmit](https://panic.com/transmit/)** (Panic) — native feel
-- **[Rogue Amoeba](https://rogueamoeba.com/)** apps (Audio Hijack, Loopback, Piezo, Airfoil) — audio utilities done right
+- **[Things 3](https://culturedcode.com/things/)** (Cultured Code) — Gruber linked to their [URL scheme](https://daringfireball.net/linked/2018/02/22/things-urls) and [Markdown support](https://daringfireball.net/linked/2021/10/08/things-markdown), noting they did both thoughtfully. We reference Things for spring animations and spacing
+- **[Arc](https://arc.net/)** (The Browser Company) — Gruber called it "[clever and ambitious](https://daringfireball.net/linked/2023/08/02/arc)" but said it doesn't resonate with him personally. We reference it for creative sidebar use
+- **[Transmit](https://panic.com/transmit/)** (Panic) — Panic's file transfer app, long-standing DF sponsor and part of the Panic ecosystem Gruber clearly admires
+- **[Rogue Amoeba](https://rogueamoeba.com/)** — Audio Hijack, Loopback, Piezo, Airfoil. Gruber covers them regularly; SoundSource got the "hall of fame" nod (listed above)
+
+### Other apps we reference for specific patterns
+
+Not Gruber-sourced — our own picks for conventions worth studying:
+
+- **[Bear](https://bear.app/)** (Shiny Frog) — sidebar conventions, mixed-case section headers
+- **[Tower](https://www.git-tower.com/)** (fournova) — badge restraint: grey pill for status, red only for "needs attention"
+- **[Reeder](https://reederapp.com/)** (Silvio Rizzi) — restraint taken further: no unread counts at all
+- **[Fork](https://git-fork.com/)** — clean Git UI, branch badges
 - **Finder, Mail, Notes, Safari** — first-party references for sidebar, context menus, multi-window, shortcuts
 
-### The cautionary tale
+### The cautionary tales
 
 Gruber on **1Password 8** moving from native to Electron: the decisions "[make perfect sense for the enterprise SaaS world](https://daringfireball.net/2022/01/1password_follow-up)" but "[it might not be feasible to move to the new model without spoiling what many 1Password users liked best](https://daringfireball.net/2022/01/1password_follow-up)."
+
+He also called Pandora for Mac "[an Electron turd](https://daringfireball.net/linked/2019/05/20/pandora-electron-turd)" and noted that Electron apps were [causing system-wide lag on macOS Tahoe](https://daringfireball.net/linked/2025/10/20/electron-apps-slow-down-tahoe).
 
 ### App Store wisdom
 
