@@ -14,6 +14,8 @@ John Gruber [coined the term](https://daringfireball.net/linked/2020/03/20/mac-a
 
 And the counterexample: Gruber called Electron "[without question a scourge](https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps)" and noted that Slack is "[emphatically not a Mac-assed Mac app](https://daringfireball.net/linked/2020/03/20/mac-assed-mac-apps)." On what makes an app feel right on the Mac: "[ultimately, you know it when you see it](https://daringfireball.net/linked/2025/04/02/apps-feel-right-mac-watts-martin)."
 
+Apple itself isn't exempt. Gruber called macOS Tahoe's utility app icons "[a folder full of dead canaries](https://daringfireball.net/2025/08/macos_26_tahoes_dead_canary_utility_app_icons)," wrote that the trend of [icons in every menu item](https://daringfireball.net/linked/2026/01/06/nielsen-icons-in-menus) is the reason he won't upgrade to Tahoe, and flagged the disappearance of [toolbar text labels](https://daringfireball.net/linked/2019/05/23/mac-toolbar-labels) as an accessibility problem. Being Mac-assed means following the platform's best instincts, not necessarily its latest ones.
+
 This agent tries to make that instinct checkable.
 
 ## What it checks

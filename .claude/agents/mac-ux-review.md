@@ -132,6 +132,13 @@ Mac.
   weight, size, accessibility settings, and accent colour
 - Flag custom icon images where a suitable SF Symbol exists
 - Icons should match the system's current font weight and size
+- **But: icons are not a substitute for text.** Gruber has written about
+  [toolbar labels being an accessibility issue](https://daringfireball.net/linked/2019/05/23/mac-toolbar-labels)
+  ("something that _looks_ better but _works_ worse") and called macOS Tahoe's
+  [icons-in-every-menu-item](https://daringfireball.net/linked/2026/01/06/nielsen-icons-in-menus)
+  the reason he won't upgrade. An SF Symbol next to a label is good. An
+  SF Symbol *instead of* a label is often bad. If your toolbar has six
+  monochrome glyphs and no text, you've made a guessing game
 
 # Native feel
 
