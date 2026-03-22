@@ -2,6 +2,20 @@
 
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) agent that reviews your macOS app for HIG compliance, native feel, and the small details that matter.
 
+## What "Mac-assed" means
+
+John Gruber [coined the term](https://daringfireball.net/linked/2020/03/20/mac-assed-mac-apps) in 2020, borrowing from Brent Simmons: apps that are "unapologetically Mac apps — platform-specific and not trying to wow us with all their custom not-Mac-like UI." Some examples from Daring Fireball:
+
+- **SoundSource** (Rogue Amoeba) — Gruber called it "[a hall-of-fame caliber example of a Mac-assed Mac app](https://daringfireball.net/linked/2020/08/09/soundsource-5)" and "the system-wide audio menu item that ought to be built into macOS"
+- **Nova** (Panic) — "[an extremely Mac-app Mac app](https://daringfireball.net/2020/11/sketch_mac_app_mac_apps)." Gruber preferred Panic's phrasing to his own
+- **Fantastical** — "[truly a Mac-assed Mac app](https://daringfireball.net/linked/2020/12/03/fantastical-mac)." Later noted it's one of the rare Mac-first apps that [successfully ported to Windows](https://daringfireball.net/linked/2024/11/01/fantastical-for-windows)
+- **Sonar** — "[my favorite new Mac app of the year](https://daringfireball.net/linked/2024/02/25/sonar)." A brand-new app for GitHub/GitLab issues that's "totally Mac-assed"
+- **Sketch** — worth "[embracing and celebrating](https://daringfireball.net/2020/11/sketch_mac_app_mac_apps)" — you can start using it instantly because it follows Mac conventions
+
+And the counterexample: Gruber called Electron "[without question a scourge](https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps)" and noted that Slack is "[emphatically not a Mac-assed Mac app](https://daringfireball.net/linked/2020/03/20/mac-assed-mac-apps)." On what makes an app feel right on the Mac: "[ultimately, you know it when you see it](https://daringfireball.net/linked/2025/04/02/apps-feel-right-mac-watts-martin)."
+
+This agent tries to make that instinct checkable.
+
 ## What it checks
 
 - **HIG compliance** — toolbar zones, menu bar completeness, reserved shortcuts, SF Symbols, context menus
