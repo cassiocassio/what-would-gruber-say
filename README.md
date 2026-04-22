@@ -24,9 +24,16 @@ This agent tries to make that instinct checkable.
 - **Native feel** — vibrancy, system accent colour, disclosure triangles, animations with reduce-motion guards
 - **Keyboard shortcuts** — modifier hierarchy, reserved system shortcuts, native vs web layer split
 - **Accessibility** — VoiceOver, Dynamic Type, high contrast, reduced motion, keyboard-only navigation
-- **App Store readiness** — security-scoped bookmarks, sandbox file access, codesigning, entitlements
 - **Usability** — learnability, efficiency, error prevention, cognitive load
 - **Hybrid apps** — WKWebView bridge security, native/web coordination
+
+## What it deliberately doesn't check
+
+**App Store submission rules** — entitlements, codesigning mechanics, sandbox migration, `Info.plist` keys, Review Guideline violations, Python sidecar signing. Those are survival questions, not taste questions, and they live in a sibling agent: **[app-store-police](https://github.com/cassiocassio/app-store-police)**.
+
+The split is deliberate. Gruber is about whether the app feels like a Mac app. App-store-police is about whether the app will be accepted. UX problems that cause rejection (e.g. a hidden menu bar, a broken reserved shortcut) land on *both* agents' desks; taste problems that won't get you rejected (a slightly off-beat sidebar pattern) are Gruber's lane only.
+
+Install both if you're shipping to the Mac App Store. Install just this one if you're shipping direct.
 
 ## Usage
 
